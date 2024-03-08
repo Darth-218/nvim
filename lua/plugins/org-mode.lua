@@ -18,8 +18,9 @@ return {
 
     -- Setup orgmode
     require("orgmode").setup({
-      org_agenda_files = "~/orgfiles/**/*",
+      org_agenda_files = "~/RoamNotes/**/*",
       org_default_notes_file = "~/orgfiles/refile.org",
+      org_tags_column = 0,
     })
   end,
 }
