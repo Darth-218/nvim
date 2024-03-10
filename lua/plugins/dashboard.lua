@@ -40,6 +40,7 @@ return {
           { desc = " Git-Files", action = "Telescope git_files", key = "g" },
           { desc = "󰉦 Theme", action = "Telescope colorscheme", key = "t" },
           { desc = " Find-In-File", action = "Telescope live_grep", key = "l" },
+          { desc = "Quit", action = ":q", key = "q" },
         },
         footer = { " " },
       },
