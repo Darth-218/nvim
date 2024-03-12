@@ -30,5 +30,9 @@ return {
         winhighlight = { Normal = "Normal", FloatBorder = "DiagnosticInfo" },
       },
     },
+    messages = {
+
+      enabled = false,
+    },
   },
 }
