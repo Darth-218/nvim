@@ -17,6 +17,7 @@ return {
           "heex",
           "javascript",
           "html",
+          "org",
         },
         sync_install = true,
         highlight = { enable = true },
