@@ -16,4 +16,14 @@ return {
   vim.keymap.set("n", "<C-\\>f", "<cmd>2ToggleTerm direction=float<CR>", { noremap = true, silent = true }),
   vim.keymap.set("n", "<C-\\>v", "<cmd>3ToggleTerm direction=vertical size=50<CR>", { noremap = true, silent = true }),
   vim.keymap.set("n", "<C-\\>h", "<cmd>4ToggleTerm direction=horizontal<CR>", { noremap = true, silent = true }),
+
+  -- {
+  --
+  --   "NvChad/nvterm",
+  --
+  --   config = function()
+  --     require("nvterm").setup()
+  --   end,
+  --
+  -- },
 }
