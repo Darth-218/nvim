@@ -5,3 +5,5 @@
 vim.api.nvim_set_keymap("n", "<F2>", "<Esc>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("i", "<F2>", "<Esc>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("v", "<F2>", "<Esc>", { noremap = true, silent = true })
+
+vim.keymap.set("n", "<leader>d", "<cmd>Dashboard<CR>", { noremap = true, silent = true })
