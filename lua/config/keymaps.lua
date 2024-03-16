@@ -7,3 +7,17 @@ vim.api.nvim_set_keymap("i", "<F2>", "<Esc>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("v", "<F2>", "<Esc>", { noremap = true, silent = true })
 
 vim.keymap.set("n", "<leader>d", "<cmd>Dashboard<CR>", { noremap = true, silent = true })
+
+-- vim.keymap.set(
+--   "v",
+--   "<leader>i",
+--   "<cmd>require 'better-digraphs'.digraphs('normal')<CR>",
+--   { noremap = true, silent = true }
+-- )
+-- vim.keymap.set("n", "<leader>i", "require 'better-digraphs'.digraphs('normal')", { noremap = true, silent = true })
+-- vim.keymap.set(
+--   "i",
+--   "<C-k>i",
+--   "<cmd>require 'better-digraphs'.digraphs('normal')<CR>",
+--   { noremap = true, silent = true }
+-- )

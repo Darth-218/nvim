@@ -17,6 +17,7 @@ return {
           "heex",
           "javascript",
           "html",
+          "norg",
           "org",
         },
         sync_install = true,
