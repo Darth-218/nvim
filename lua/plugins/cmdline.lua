@@ -4,7 +4,7 @@ return {
   views = {
 
     cmdline = {
-      ciew = "cmdline",
+      view = "cmdline",
     },
     messages = {
 
