@@ -19,6 +19,7 @@ return {
           "html",
           "norg",
           "org",
+          "gleam",
         },
         sync_install = true,
         highlight = { enable = true },
