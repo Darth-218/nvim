@@ -1,12 +1,12 @@
 local logo = [[
 
 
-  ██████╗  █████╗ ███╗   ██╗███████╗███████╗    ██╗   ██╗██╗███╗   ███╗
-  ██╔══██╗██╔══██╗████╗  ██║██╔════╝██╔════╝    ██║   ██║██║████╗ ████║
-  ██████╔╝███████║██╔██╗ ██║█████╗  ███████╗    ██║   ██║██║██╔████╔██║
-  ██╔══██╗██╔══██║██║╚██╗██║██╔══╝  ╚════██║    ╚██╗ ██╔╝██║██║╚██╔╝██║
-  ██████╔╝██║  ██║██║ ╚████║███████╗███████║     ╚████╔╝ ██║██║ ╚═╝ ██║
-  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝      ╚═══╝  ╚═╝╚═╝     ╚═╝
+  ██╗   ██╗██╗███╗   ███╗
+  ██║   ██║██║████╗ ████║
+  ██║   ██║██║██╔████╔██║
+  ╚██╗ ██╔╝██║██║╚██╔╝██║
+   ╚████╔╝ ██║██║ ╚═╝ ██║
+    ╚═══╝  ╚═╝╚═╝     ╚═╝
                                                                      
 
           ]]
@@ -31,16 +31,16 @@ return {
 
         header = vim.split(logo, "\n"),
 
+	project = {enabled = true, limit = 2},
         mru = { limit = 5 },
 
         shortcut = {
 
           { desc = "󰤘 Recent-Files", action = "Telescope oldfiles", key = "r" },
-          { desc = "󰈔 Files", action = "Oil --float", key = "f" },
+          { desc = "󰈔 Files", action = "Files", key = "f" },
           { desc = " Git-Files", action = "Telescope git_files", key = "g" },
-          { desc = "󰉦 Theme", action = "Telescope colorscheme", key = "t" },
           { desc = " Find-In-File", action = "Telescope live_grep", key = "l" },
-          { desc = "Quit", action = ":q", key = "q" },
+          { desc = "󰈆 Quit", action = ":q", key = "q" },
         },
         footer = { " " },
       },
