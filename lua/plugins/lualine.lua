@@ -7,7 +7,7 @@ return {
 	opts = {
 		options = {
 			icons_enabled = true,
-			theme = 'iceberg_dark',
+			theme = 'darthline',
 			component_separators = { left = '|', right = '|'},
 			section_separators = { left = '', right = ''},
 			disabled_filetypes = {
@@ -26,22 +26,22 @@ return {
 		sections = {
 			lualine_a = {'location'},
 			lualine_b = {'filename'},
-			lualine_c = {'selectioncount', 'searchcount'},
-			lualine_x = {'branch', 'diff', 'diagnostics'},
-			lualine_y = {'filetype'},
-			lualine_z = {}
+			lualine_c = {},
+			lualine_x = {'selectioncount', 'searchcount'},
+			lualine_y = {'branch', 'diff', 'diagnostics'},
+			lualine_z = {'filetype'}
 		},
 		inactive_sections = {
 			lualine_a = {},
 			lualine_b = {},
 			lualine_c = {'filename'},
-			lualine_x = {'location'},
+			lualine_x = {'filetype'},
 			lualine_y = {},
 			lualine_z = {}
 		},
 		tabline = {},
 		winbar = {},
 		inactive_winbar = {},
-		extensions = {}
+		extensions = {},
 	},
 }
