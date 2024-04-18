@@ -58,3 +58,6 @@ vim.keymap.set("n", "<leader>wc", "<cmd>NoNeckPain<CR>", {})
 
 -- todo-comments
 vim.keymap.set("n", "<leader>n", "<cmd>TodoTelescope cwd=%:h<CR>")
+
+-- hop
+vim.keymap.set("n", "<leader>j", "<cmd>HopWord<CR>")
