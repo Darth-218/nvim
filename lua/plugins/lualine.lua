@@ -6,7 +6,7 @@ return {
 
   opts = {
     options = {
-      icons_enabled = true,
+      icons_enabled = false,
       theme = 'darthline',
       component_separators = { left = '|', right = '|'},
       section_separators = { left = '', right = ''},
@@ -26,9 +26,9 @@ return {
     sections = {
       lualine_a = {'location'},
       lualine_b = {'filename'},
-      lualine_c = {'selectioncount', 'searchcount'},
+      lualine_c = {'diff'},
       lualine_x = {'diagnostics'},
-      lualine_y = {'branch', 'diff'},
+      lualine_y = {'branch'},
       lualine_z = {'filetype'}
     },
     inactive_sections = {
