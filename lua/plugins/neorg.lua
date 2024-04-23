@@ -1,17 +1,29 @@
 return {
 
-	{
+  {
+    "vhyrro/luarocks.nvim",
+    priority = 1000,
+    config = true,
+  },
+  {
+    "nvim-neorg/neorg",
 
-		"vhyrro/luarocks.nvim",
-		priority = 1000,
-		config = true,
-	},
-	{
+    dependencies = {"luarocks.nvim"},
 
-		"nvim-neorg/neorg",
-		dependencies = {"luarocks.nvim"},
-		lazy = false,
-		version = "*",
-		config = true,
+    lazy = false,
+
+    version = "*",
+
+    config = function()
+      require("neorg").setup({
+
+	load = {
+
+	  ["core.defaults"] = {},
+	  ["core.concealer"] = {},
+	  ["core.manoeuvre"] = {},
 	},
+      })
+    end,
+  },
 }
