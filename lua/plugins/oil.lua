@@ -2,8 +2,9 @@ return {
   'stevearc/oil.nvim',
   dependencies = { "nvim-tree/nvim-web-devicons" },
   opts = {
+    autosave_changes = true,
     default_file = true,
-    columns = {"icon", "size", "permissions", },
+    columns = { "icon" },
     keymaps = {
       ["H"] = "actions.parent",
       ["L"] = "actions.select",
@@ -16,7 +17,7 @@ return {
     float = {
       padding = 5,
       max_height = 25,
-      max_width = 70,
+      max_width = 40,
       win_options = {
 	winblend = 5,
       },
