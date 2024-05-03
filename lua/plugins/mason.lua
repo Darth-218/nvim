@@ -29,6 +29,12 @@ return {
 
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
+      lspconfig.pyright.setup({
+	capabilities = capabilities
+      })
+      lspconfig.ruff.setup({
+	capabilities = capabilities
+      })
       lspconfig.clangd.setup({
 	on_attach = function(client, bufnr)
 	  client.server_capabilities.signatureHelpProvider = false
