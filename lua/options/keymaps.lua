@@ -34,6 +34,7 @@ vim.keymap.set("n", "<leader>tr", "<cmd>Telescope oldfiles theme=ivy<CR>", {nore
 vim.keymap.set("n", "<leader>tg", "<cmd>Telescope git_files theme=ivy<CR>", {noremap = true})
 vim.keymap.set("n", "<leader>tl", "<cmd>Telescope live_grep theme=ivy<CR>", {noremap = true})
 vim.keymap.set("n", "<leader>tb", "<cmd>Telescope buffers theme=ivy<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>tm", "<cmd>Telescope marks theme=ivy<CR>", {noremap = true})
 
 -- Dashboard
 vim.keymap.set("n", "<leader>d", "<cmd>Dashboard<CR>", {noremap = true})
@@ -63,3 +64,7 @@ vim.keymap.set("n", "<C-s>", "<cmd>cd %:h | Silicon<CR>")
 
 -- ZenMode
 vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<CR>")
+
+-- nvim-surround
+-- vim.keymap.set("n", "<C-d>y", "ys")
+-- vim.keymap.set("n", "<C-d>d", "ds")
