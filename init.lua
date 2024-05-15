@@ -8,3 +8,5 @@ Tmux = function()
 end
 
 Tmux()
+
+vim.cmd.colorscheme 'moonfly'
