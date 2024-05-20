@@ -65,6 +65,9 @@ vim.keymap.set("n", "<C-s>", "<cmd>cd %:h | Silicon<CR>")
 -- ZenMode
 vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<CR>")
 
+-- Glow (Makrdown preview)
+vim.keymap.set("n", "<leader>g", "<cmd>Glow<CR>")
+
 -- nvim-surround
 -- vim.keymap.set("n", "<C-d>y", "ys")
 -- vim.keymap.set("n", "<C-d>d", "ds")
