@@ -7,7 +7,8 @@ return {
 
   config = function()
     require("silicon").setup({
-      font = "Jetbrains Mono NF=34;Noto Color Emoji=34",
+      font = "Firacode NF=34;Noto Color Emoji=34",
+      theme = "moonfly",
       no_window_controls = true,
       pad_vert = 0,
       pad_horiz = 0,
