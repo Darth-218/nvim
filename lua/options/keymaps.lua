@@ -36,6 +36,9 @@ vim.keymap.set("n", "<leader>tl", "<cmd>Telescope live_grep theme=ivy<CR>", {nor
 vim.keymap.set("n", "<leader>tb", "<cmd>Telescope buffers theme=ivy<CR>", {noremap = true})
 vim.keymap.set("n", "<leader>tm", "<cmd>Telescope marks theme=ivy<CR>", {noremap = true})
 
+-- Trouble
+vim.keymap.set("n", "<leader>T", "<cmd>Trouble<CR>", {noremap = true})
+
 -- Dashboard
 vim.keymap.set("n", "<leader>d", "<cmd>Dashboard<CR>", {noremap = true})
 
