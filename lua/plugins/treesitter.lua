@@ -11,6 +11,7 @@ return {
           "cpp",
           "python",
           "lua",
+	  "markdown",
           "vim",
           "vimdoc",
           "query",
