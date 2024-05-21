@@ -4,7 +4,6 @@ return {
     "williamboman/mason.nvim",
 
     lazy = false,
-
     config = function()
       require("mason").setup()
     end,
@@ -21,12 +20,10 @@ return {
       })
     end
   },
-
   {
     "neovim/nvim-lspconfig",
 
     config = function()
-
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
       lspconfig.pyright.setup({
@@ -44,5 +41,4 @@ return {
       })
     end
   },
-
-  }
+}
