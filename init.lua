@@ -10,4 +10,4 @@ end
 
 Tmux()
 
-vim.cmd.colorscheme 'tokyodark'
+vim.cmd.colorscheme 'mellifluous'
