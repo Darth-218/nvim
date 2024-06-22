@@ -23,6 +23,7 @@ return {
           "org",
           "gleam",
           "yuck",
+          "go",
         },
         sync_install = true,
         highlight = { enable = true },

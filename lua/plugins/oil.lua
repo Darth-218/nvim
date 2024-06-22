@@ -4,7 +4,7 @@ return {
   opts = {
     autosave_changes = true,
     default_file = true,
-    columns = { "icon" },
+    columns = { "icon", "permissions", "size" },
     keymaps = {
       ["H"] = "actions.parent",
       ["L"] = "actions.select",
@@ -17,7 +17,7 @@ return {
     float = {
       padding = 5,
       max_height = 25,
-      max_width = 40,
+      max_width = 80,
       win_options = {
 	winblend = 5,
       },
