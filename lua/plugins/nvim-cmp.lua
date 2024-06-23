@@ -39,12 +39,12 @@ return {
 	["<C-e>"] = cmp.mapping.abort(),    -- close completion window
 	["<CR>"] = cmp.mapping.confirm(),
       }),
-      window = {
-	completion = cmp.config.window.bordered({
-	  border = "double",
-	  winhighlight = "Normal:TabLineFill,FloatBorder:DiffDelete,CursorLine:CursorLineNr,Search:None",
-	}),
-      },
+      -- window = {
+	-- completion = cmp.config.window.bordered({
+	  -- border = "double",
+	  -- winhighlight = "Normal:TabLineFill,FloatBorder:DiffDelete,CursorLine:CursorLineNr,Search:None",
+	-- }),
+      -- },
       -- sources for autocompletion
       sources = cmp.config.sources({
 	{ name = "nvim_lsp" },
