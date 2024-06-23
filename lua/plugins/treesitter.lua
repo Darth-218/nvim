@@ -12,6 +12,7 @@ return {
           "python",
           "lua",
 	  "markdown",
+	  "latex",
           "vim",
           "vimdoc",
           "query",
