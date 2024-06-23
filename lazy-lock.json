@@ -34,6 +34,7 @@
   "mini.indentscope": { "branch": "main", "commit": "a8274b6ea2d868198d27bd91a31ed5ea3a6a5744" },
   "moonfly": { "branch": "master", "commit": "d43001d901599ba7273dc5700db26948ffc0bac6" },
   "moonlight.nvim": { "branch": "pure-lua", "commit": "e24e4218ec680b6396532808abf57ca0ada82e66" },
+  "nabla.nvim": { "branch": "master", "commit": "27a6ea9ed7452bb9e0b19eb0942b5bcf7d051b2f" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "7aad1bf3f6b849cbf108e02c55ad4d701cb4d33a" },
   "no-clown-fiesta.nvim": { "branch": "master", "commit": "caf86fbc3cf390cac8c5fba599f1500f49f622d7" },
   "no-neck-pain.nvim": { "branch": "main", "commit": "34625be12649666b7ccb08761087cc97bb788552" },
