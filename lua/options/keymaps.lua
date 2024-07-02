@@ -28,13 +28,12 @@ vim.keymap.set("n", "<C-w>\\", "<C-w>v", {noremap = true})
 vim.keymap.set("n", "-", "<cmd>Oil --float %:h<CR>", {noremap = true})
 
 -- Telescope
-vim.keymap.set("n", "<leader>tf", "<cmd>cd %:h | Telescope find_files theme=ivy hidden=true<CR>", {noremap = true})
-vim.keymap.set("n", "<leader>th", "<cmd>cd | Telescope find_files theme=ivy hidden=true<CR>", {noremap = true})
-vim.keymap.set("n", "<leader>tr", "<cmd>Telescope oldfiles theme=ivy<CR>", {noremap = true})
-vim.keymap.set("n", "<leader>tg", "<cmd>Telescope git_files theme=ivy<CR>", {noremap = true})
-vim.keymap.set("n", "<leader>tl", "<cmd>Telescope live_grep theme=ivy<CR>", {noremap = true})
-vim.keymap.set("n", "<leader>tb", "<cmd>Telescope buffers theme=ivy<CR>", {noremap = true})
-vim.keymap.set("n", "<leader>tm", "<cmd>Telescope marks theme=ivy<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>f", "<cmd>cd %:h | Telescope find_files hidden=true<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>r", "<cmd>Telescope oldfiles<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>g", "<cmd>Telescope git_files<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>tl", "<cmd>Telescope live_grep<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>b", "<cmd>Telescope buffers<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>tm", "<cmd>Telescope marks<CR>", {noremap = true})
 
 -- Trouble
 vim.keymap.set("n", "<leader>T", "<cmd>Trouble<CR>", {noremap = true})
@@ -69,7 +68,7 @@ vim.keymap.set("n", "<C-s>", "<cmd>cd %:h | Silicon<CR>")
 vim.keymap.set("n", "<leader>z", "<cmd>ZenMode<CR>")
 
 -- Glow (Makrdown preview)
-vim.keymap.set("n", "<leader>g", "<cmd>Glow<CR>")
+vim.keymap.set("n", "<leader><C-g>", "<cmd>Glow<CR>")
 
 -- Nabla (math preview)
 vim.keymap.set("n", "<leader>l", "<cmd>lua require(\"nabla\").popup()<CR>")
