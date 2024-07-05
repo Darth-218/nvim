@@ -72,3 +72,6 @@ vim.keymap.set("n", "<leader><C-g>", "<cmd>Glow<CR>")
 
 -- Nabla (math preview)
 vim.keymap.set("n", "<leader>l", "<cmd>lua require(\"nabla\").popup()<CR>")
+
+-- Obsidian
+vim.keymap.set("n", "<leader>ot", "<cmd>ObsidianTemplate<CR>")

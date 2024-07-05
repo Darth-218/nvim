@@ -7,6 +7,9 @@ return {
     "nvim-lua/plenary.nvim",
   },
   opts = {
+    templates = {
+      folder = "~/.config/nvim/lua/plugins/obsidian-temps",
+    },
     workspaces = {
       {
         name = "personal",
