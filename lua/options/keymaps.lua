@@ -25,18 +25,18 @@ vim.keymap.set("n", "<C-w>\\", "<C-w>v", {noremap = true})
 -- Plugins --
 
 -- Oil
-vim.keymap.set("n", "-", "<cmd>Oil --float %:h<CR>", {noremap = true})
+vim.keymap.set("n", "-", "<cmd>Oil --float<CR>", {noremap = true})
 
 -- Telescope
 vim.keymap.set("n", "<leader>f", "<cmd>cd %:h | Telescope find_files hidden=true<CR>", {noremap = true})
 vim.keymap.set("n", "<leader>r", "<cmd>Telescope oldfiles<CR>", {noremap = true})
 vim.keymap.set("n", "<leader>g", "<cmd>Telescope git_files<CR>", {noremap = true})
 vim.keymap.set("n", "<leader>tl", "<cmd>Telescope live_grep<CR>", {noremap = true})
-vim.keymap.set("n", "<leader>b", "<cmd>Telescope buffers<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>bb", "<cmd>Telescope buffers<CR>", {noremap = true})
 vim.keymap.set("n", "<leader>tm", "<cmd>Telescope marks<CR>", {noremap = true})
 
 -- Trouble
-vim.keymap.set("n", "<leader>T", "<cmd>Trouble<CR>", {noremap = true})
+vim.keymap.set("n", "<leader>t", "<cmd>Trouble diagnostics<CR>", {noremap = true})
 
 -- Dashboard
 vim.keymap.set("n", "<leader>d", "<cmd>Dashboard<CR>", {noremap = true})
@@ -75,3 +75,4 @@ vim.keymap.set("n", "<leader>l", "<cmd>lua require(\"nabla\").popup()<CR>")
 
 -- Obsidian
 vim.keymap.set("n", "<leader>ot", "<cmd>ObsidianTemplate<CR>")
+vim.keymap.set("n", "<leader>of", "<cmd>ObsidianSearch<CR>")

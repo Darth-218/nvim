@@ -14,9 +14,11 @@ return {
     config = function()
       require("mason-lspconfig").setup({
 	ensure_installed = {
-	  "lua_ls",
 	  "clangd",
-	  "gopls"
+	  "omnisharp",
+	  "lua_ls",
+	  "gopls",
+	  "pyright",
 	}
       })
     end
@@ -28,12 +30,8 @@ return {
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({})
       lspconfig.gopls.setup({})
-      lspconfig.pyright.setup({
-	capabilities = capabilities
-      })
-      lspconfig.ruff.setup({
-	capabilities = capabilities
-      })
+      lspconfig.csharp_ls.setup({})
+      lspconfig.pyright.setup({})
       lspconfig.clangd.setup({
 	on_attach = function(client, bufnr)
 	  client.server_capabilities.signatureHelpProvider = false

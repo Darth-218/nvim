@@ -8,10 +8,12 @@ return {
       configs.setup({
         ensure_installed = {
           "c",
+          "c_sharp",
           "cpp",
           "python",
           "lua",
 	  "markdown",
+	  "markdown_inline",
 	  "latex",
           "vim",
           "vimdoc",
